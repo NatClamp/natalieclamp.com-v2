@@ -10,10 +10,13 @@
 	vertical-align: baseline;
 }
 
-a {
-  text-decoration: none;
-}
-
 button {
   cursor: pointer;
+}
+
+a, button {
+  &:focus {
+    outline: dashed $color5 3px;
+    outline-offset: 10px;
+  }
 }
