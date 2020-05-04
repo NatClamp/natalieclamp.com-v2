@@ -89,10 +89,14 @@ a {
   .links-container li {
     margin: 0.5em; }
 
-.content-container {
+.content-block {
   max-width: 650px;
   text-justify: newspaper;
   margin: 0 auto; }
+  .content-block .content-container {
+    margin: 3em 0; }
+    .content-block .content-container p {
+      margin: 1em 0; }
 
 .buttons-container {
   display: flex;

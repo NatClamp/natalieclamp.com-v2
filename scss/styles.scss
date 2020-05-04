@@ -100,10 +100,18 @@ a {
   }
 }
 
-.content-container {
+.content-block {
   max-width: 650px;
   text-justify: newspaper;
   margin: 0 auto;
+
+
+  .content-container {
+    margin: 3em 0;
+    p {
+      margin: 1em 0;
+    }
+  }
 }
 
 .buttons-container {
