@@ -2,15 +2,23 @@
   "name": "natalieclamp.com-v2",
   "version": "1.0.0",
   "description": "A stripped back personal website",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatClamp/natalieclamp.com-v2.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatClamp/natalieclamp.com-v2/issues"
+  },
+  "homepage": "https://github.com/NatClamp/natalieclamp.com-v2#readme",
   "dependencies": {
-    "node-sass": "4.14.1"
+    "node-sass": "^5.0.0"
   }
 }
