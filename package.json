@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/NatClamp/natalieclamp.com-v2#readme",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   }
 }
